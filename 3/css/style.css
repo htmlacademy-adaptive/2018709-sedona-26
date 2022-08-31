@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/ptsans.woff2), format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sansbold";
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/ptsansbold.woff2), format("woff2");
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0 auto;
+  width: 320px;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-header {
+  display: flex;
+  background-color: #ffffff;
+}
+.main-nav__toggle {
+  border: 0;
+  border-radius: 0;
+  background-color: #ffffff;
+}
+.site-list {
+  display: none;
+}
+.main-container__background {
+  background-image: url(/img/main/back.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto, cover;
+}
+.benefits {
+  text-align: center;
+}
+.benefits__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+.advantages__item--with-photo {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+.advantages__item--excellence {
+  background: #eeeeee;
+}
+.advantages__title {
+  margin: 0;
+  padding: 0;
+}
+.advantages__description {
+  margin: 0;
+  padding: 0;
+}
+.advantages__item--spot {
+  text-align: left;
+}
+.social__list {
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
